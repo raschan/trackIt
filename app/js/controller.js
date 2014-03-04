@@ -7,7 +7,11 @@ controllers.controller('saveTrack', ['$scope', function ($scope) {
 	$scope.add = function (trackTime) {
 		
 		$scope.addedLine = angular.copy($scope.trackTime);	
-		$scope.list.push($scope.trackTime);
+		
+		var temp = angular.copy($scope.list);
+		temp.push($scope.trackTime);
+
+		$scope.list= angular.copy(temp);
 }
 
 }]);

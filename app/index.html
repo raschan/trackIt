@@ -37,8 +37,10 @@
 		<pre>{{trackTime | json}}</pre>
 		<pre>{{addedLine | json}}</pre>
 		
+		<pre>{{list | json}} </pre>
+
 		<ul>
-			<li ng-repeat="item in list">Kezdete:{{item.startTime}} Vége:{{item.endTime}} Feladat:{{item.description}} </li>
+			<li ng-repeat="item in list track by $index">Kezdete:{{item.startTime}} Vége:{{item.endTime}} Feladat:{{item.description}} </li>
 		</ul>
 
 	</div>
