@@ -1,0 +1,1 @@
+var trackIt = angular.module('trackIt', []);
