@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"de",
+				"description"
+			],
+			[
+				"ad",
+				"addedLine"
+			],
+			[
+				"$sc",
+				"$scope	AngularJS"
+			],
+			[
 				"$s",
 				"$scope	AngularJS"
 			]
@@ -11,6 +23,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/C/Users/Raschan/Dropbox/Doksik/LE/Rendezvenyes/2014 tavasz/1_gyuleslog.txt",
+			"settings":
+			{
+				"buffer_size": 2415,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -48,6 +68,9 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Raschan/Dropbox/Munka/sandbox/trackIt/app/js/services.js",
+		"/C/Users/Raschan/Dropbox/Munka/sandbox/trackIt/app/js/controller.js",
+		"/C/Users/Raschan/Dropbox/Munka/sandbox/trackIt/app/index.html",
 		"/C/Users/Raschan/Dropbox/Doksik/LE/félévnyitó tábor/megbeszélés andrissal.txt",
 		"/C/Users/Raschan/Dropbox/Munka/sandbox/time-tracker/model.json",
 		"/C/Users/Raschan/Dropbox/Munka/sandbox/time-tracker/app/js/app.js",
@@ -91,8 +114,36 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/Raschan/Dropbox/Doksik/LE/Rendezvenyes/2014 tavasz/1_gyuleslog.txt",
+					"settings":
+					{
+						"buffer_size": 2415,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1618,
+								1618
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 545.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],

@@ -6,12 +6,13 @@ controllers.controller('saveTrack', ['$scope', function ($scope) {
 
 	$scope.add = function (trackTime) {
 		
-		$scope.addedLine = angular.copy($scope.trackTime);	
-		
-		var temp = angular.copy($scope.list);
+		var temp = [];
+		temp = angular.copy($scope.list);
 		temp.push($scope.trackTime);
 
-		$scope.list= angular.copy(temp);
+		$scope.list = angular.copy(temp);
+
+		$scope.trackTime.description = '';
 }
 
 }]);
