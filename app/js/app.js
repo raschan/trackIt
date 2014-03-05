@@ -2,13 +2,13 @@ var trackIt = angular.module('trackIt',
 	[
 	'trackIt.services', 
 	'trackIt.controllers',
-	'trackIt.directives',
+	
 	'ngRoute',
 	'UserApp'
 	]);
 
 trackIt.run(function($rootScope, user){
-	user.init({ appId: 'trackIt'});	
+	user.init({ appId: '53174f7f315ed'});	
 });
 
 
@@ -18,12 +18,15 @@ trackIt.config(['$routeProvider',function($routeProvider) {
 	when('/login', 
 		{
 			templateUrl: 'partials/login.html',
-			login: true
 		}).
 	when('/signup', 
 		{
 			templateUrl: 'partials/signup.html',
 			public: true
+		}).
+	when('/home',
+		{
+			templateUrl: 'partials/main.html'
 		}).
 	otherwise({redirectTo: '/home'});
 }]);

@@ -1,0 +1,24 @@
+<div class="container-fluid">
+	<a href='#/login' ng-show="user.authenticated">Bejelentkezés</a>
+
+	<div ng-controller="saveTrack" ng-hide="user.authenticated">
+		<!-- menübe megy -->
+		<p>Szia {{user.first_name}}, mit csináltál ma?</p>
+		<a href="#" ua-logout>Kijelentkezés</a>	
+		<!-- menü vége -->
+
+		<form class="form-inline" ng-model="trackTime">
+			<div class="row">
+				<input class="col-md-3" autofocus cols="40" rows="1" type="text" placeholder="Feladat leírása" ng-model="trackTime.description">
+			</div>
+			<div class="row">
+				<button class="btn btn-primary" ng-click="add(trackTime)">Hozzáad</button>
+			</div>
+		</form>
+
+		<ul>
+			<li ng-repeat="item in list track by $index">{{item.description}} </li>
+		</ul>
+
+	</div>
+</div>

@@ -1,4 +1,4 @@
-var controllers = angular.module('trackIt',[]);
+var controllers = angular.module('trackIt.controllers',[]);
 
 controllers.controller('saveTrack', ['$scope', function ($scope) {
 	
