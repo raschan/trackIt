@@ -1,6 +1,6 @@
-var controllers = angular.module('trackIt.controllers',[]);
+var controllers = angular.module('trackIt.controllers',['trackIt.services']);
 
-controllers.controller('saveTrack', ['$scope', function ($scope) {
+controllers.controller('saveTrack', ['$scope','User', function ($scope,User) {
 	
 	$scope.list = [];
 
@@ -13,6 +13,10 @@ controllers.controller('saveTrack', ['$scope', function ($scope) {
 		$scope.list = angular.copy(temp);
 
 		$scope.trackTime.description = '';
-}
+	}
+
+	$scope.savelist = function (list) {
+		User.save({}, angular.toJson(list));
+	}
 
 }]);
