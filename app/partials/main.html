@@ -17,10 +17,10 @@
 		</form>
 
 		<ul>
-			<li ng-repeat="item in list track by $index">{{item.description}} </li>
+			<li ng-repeat="item in list track by $index">{{item.description | json}} </li>
 		</ul>
 
 		<button class="btn btn-primary" ng-click="savelist(list)">Mentés</button>
-
+		
 	</div>
 </div>

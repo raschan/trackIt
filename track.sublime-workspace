@@ -4,6 +4,46 @@
 		"selected_items":
 		[
 			[
+				"User",
+				"User"
+			],
+			[
+				"use",
+				"userId"
+			],
+			[
+				"$rout",
+				"$routeProvider	AngularJS"
+			],
+			[
+				"$ro",
+				"$routeProvider	AngularJS(DI)"
+			],
+			[
+				"$roo",
+				"$rootScope	AngularJS(DI)"
+			],
+			[
+				"pr",
+				"promise"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"servi",
+				"services"
+			],
+			[
 				"de",
 				"description"
 			],
@@ -24,10 +64,9 @@
 	"buffers":
 	[
 		{
-			"file": "/C/Users/Raschan/Dropbox/Doksik/LE/Rendezvenyes/2014 tavasz/1_gyuleslog.txt",
 			"settings":
 			{
-				"buffer_size": 2415,
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		}
@@ -35,9 +74,37 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 311.0,
+		"height": 357.0,
 		"selected_items":
 		[
+			[
+				"sftp",
+				"SFTP: Browse Server…"
+			],
+			[
+				"sft",
+				"SFTP: Show Panel"
+			],
+			[
+				"read",
+				"ReadmePlease"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"br",
+				"SFTP: Browse Server…"
+			],
+			[
+				"bro",
+				"SFTP: Browse Server…"
+			],
+			[
+				"sf",
+				"SFTP: Browse Server…"
+			],
 			[
 				"inst",
 				"Package Control: Install Package"
@@ -51,7 +118,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 432.0
+		"width": 512.0
 	},
 	"console":
 	{
@@ -68,9 +135,21 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Raschan/Dropbox/Munka/sandbox/trackIt/app/db/user.json",
+		"/C/Users/Raschan/Dropbox/Munka/sandbox/trackIt/app/js/app.js",
 		"/C/Users/Raschan/Dropbox/Munka/sandbox/trackIt/app/js/services.js",
 		"/C/Users/Raschan/Dropbox/Munka/sandbox/trackIt/app/js/controller.js",
+		"/C/Users/Raschan/Dropbox/Munka/sandbox/trackIt/app/partials/main.html",
+		"/C/Users/Raschan/AppData/Roaming/Sublime Text 2/Packages/User/sftp_servers/szimpatikus",
+		"/C/users/raschan/appdata/local/temp/sublime-sftp-browse-1394099030/szimpatikus/home/szimpa01/public_html/feldolgoz.php",
+		"/C/users/raschan/appdata/local/temp/sublime-sftp-browse-1394098356/szimpatikus/home/szimpa01/public_html/hello.php",
+		"/C/Users/Raschan/Dropbox/Munka/sandbox/trackIt/app/partials/signup.html",
+		"/C/Users/Raschan/Dropbox/Munka/sandbox/trackIt/app/partials/login.html",
+		"/C/Users/Raschan/Dropbox/Munka/sandbox/trackIt/app/js/directives.js",
 		"/C/Users/Raschan/Dropbox/Munka/sandbox/trackIt/app/index.html",
+		"/C/Users/Raschan/Dropbox/Munka/sandbox/trackIt/track.sublime-workspace",
+		"/C/Users/Raschan/Dropbox/Munka/sandbox/trackIt/track.sublime-project",
+		"/C/Users/Raschan/Dropbox/Doksik/LE/Rendezvenyes/2014 tavasz/1_gyuleslog.txt",
 		"/C/Users/Raschan/Dropbox/Doksik/LE/félévnyitó tábor/megbeszélés andrissal.txt",
 		"/C/Users/Raschan/Dropbox/Munka/sandbox/time-tracker/model.json",
 		"/C/Users/Raschan/Dropbox/Munka/sandbox/time-tracker/app/js/app.js",
@@ -97,6 +176,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"services",
+			"return",
+			"$resource",
+			"userId",
+			"listOfThings"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -119,18 +203,17 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/Raschan/Dropbox/Doksik/LE/Rendezvenyes/2014 tavasz/1_gyuleslog.txt",
 					"settings":
 					{
-						"buffer_size": 2415,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1618,
-								1618
+								0,
+								0
 							]
 						],
 						"settings":
@@ -139,7 +222,7 @@
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 545.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -153,7 +236,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{
@@ -180,7 +263,7 @@
 	"menu_visible": true,
 	"output.sftp":
 	{
-		"height": 0.0
+		"height": 263.0
 	},
 	"replace":
 	{

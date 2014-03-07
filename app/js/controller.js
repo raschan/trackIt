@@ -1,4 +1,4 @@
-var controllers = angular.module('trackIt.controllers',['trackIt.services']);
+var controllers = angular.module('trackIt.controllers',[]);
 
 controllers.controller('saveTrack', ['$scope','User', function ($scope,User) {
 	
@@ -16,7 +16,10 @@ controllers.controller('saveTrack', ['$scope','User', function ($scope,User) {
 	}
 
 	$scope.savelist = function (list) {
-		User.save({}, angular.toJson(list));
+		User.save({id:13}, angular.toJson(list));
+	}
+	$scope.load = function(){
+		$scope.valami =User.get();
 	}
 
 }]);
